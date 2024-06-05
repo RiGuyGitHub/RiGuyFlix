@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RiGuyFlix</title>
+    <style>
+        body {
+            background-color: #141414;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #e50914;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .movie {
+            background-color: #333;
+            margin: 10px;
+            padding: 20px;
+            width: 200px;
+            text-align: center;
+            border-radius: 5px;
+            transition: transform 0.2s;
+        }
+        .movie:hover {
+            transform: scale(1.05);
+        }
+        .movie a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>RiGuyFlix</h1>
+    </header>
+    <div class="container">
+        <div class="movie"><a href="#movie1">Movie Title 1</a></div>
+        <div class="movie"><a href="#movie2">Movie Title 2</a></div>
+        <div class="movie"><a href="#movie3">Movie Title 3</a></div>
+        <div class="movie"><a href="#movie4">Movie Title 4</a></div>
+        <div class="movie"><a href="#movie5">Movie Title 5</a></div>
+        <div class="movie"><a href="#movie6">Movie Title 6</a></div>
+        <div class="movie"><a href="#movie7">Movie Title 7</a></div>
+        <div class="movie"><a href="#movie8">Movie Title 8</a></div>
+        <div class="movie"><a href="#movie9">Movie Title 9</a></div>
+        <div class="movie"><a href="#movie10">Movie Title 10</a></div>
+        <div class="movie"><a href="#movie11">Movie Title 11</a></div>
+        <div class="movie"><a href="#movie12">Movie Title 12</a></div>
+        <div class="movie"><a href="#movie13">Movie Title 13</a></div>
+        <div class="movie"><a href="#movie14">Movie Title 14</a></div>
+        <div class="movie"><a href="#movie15">Movie Title 15</a></div>
+        <div class="movie"><a href="#movie16">Movie Title 16</a></div>
+    </div>
+</body>
+</html>
